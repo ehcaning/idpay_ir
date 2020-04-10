@@ -1,0 +1,25 @@
+{
+  "name": "idpay_ir",
+  "version": "1.0.0",
+  "description": "Payment utility for idpay.ir payment gate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehcaning/idpay_ir.git"
+  },
+  "keywords": [
+    "payment"
+  ],
+  "author": "ehcan@iCloud.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehcaning/idpay_ir/issues"
+  },
+  "homepage": "https://github.com/Ehcaning/idpay_ir#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
