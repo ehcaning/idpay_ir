@@ -50,7 +50,7 @@ class idpay {
 					order_id: order_id,
 				},
 			})
-				.then(res => {
+				.then(response => {
 					return resolve(response.data);
 				})
 				.catch(err => {
