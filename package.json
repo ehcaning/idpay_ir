@@ -1,6 +1,6 @@
 {
   "name": "idpay_ir",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Payment utility for idpay.ir payment gate",
   "main": "app.js",
   "scripts": {
