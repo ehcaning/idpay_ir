@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Ehcaning/idpay_ir#readme",
   "dependencies": {
-    "request": "^2.88.2"
+    "axios": "^0.19.2"
   }
 }
