@@ -33,6 +33,12 @@ class Idpay {
 	 * @returns {Promise<{id: String, link: String}>}
 	 */
 	async create(order_id, amount, callback, desc = '', name = '', phone = '', mail = '') {
+		if (typeof amount !== 'number' || amount < 1000)
+			throw new Error("Transaction's amount must be a number and equal/greater than 1000");
+		else if (typeof callback !== 'string' || callback.length < 5)
+			throw new Error('Callback (redirect) URL must be a string.');
+		else if (callback.slice(0, 4) != 'http') throw new Error('Callback URL must start with http/https');
+
 		const response = await axios({
 			method: 'post',
 			headers: {
